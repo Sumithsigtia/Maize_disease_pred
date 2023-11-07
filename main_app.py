@@ -5,7 +5,7 @@ from keras.models import load_model
 import tensorflow as tf
 import pickle
 
-model = pickle.load(open('Streamlit_app/model.sav', 'rb'))
+model = pickle.load(open('model.sav', 'rb'))
 CLASS_NAMES = ['Corn-Blight','Corn-Common_Rust','Corn-Healthy']
 
 st.title("Maize(Corn) Plant Leaf Disease Detection")
