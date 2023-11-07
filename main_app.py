@@ -34,6 +34,23 @@ if submit:
 		
 
 		st.title (str("This is Maize leaf with "+ result.split('-') [1]))
+
+		if result is 'Corn-Blight':
+			    st.title("Causes for " + result)
+			    st.write("Corn blight in maize can be caused by fungal pathogens such as Helminthosporium maydis or Exserohilum turcicum. These pathogens thrive in warm, humid conditions and can infect corn plants through wounds or natural openings.")
+			    st.write("Factors such as prolonged leaf wetness, high humidity, and warm temperatures favor the development and spread of corn blight.")
+			
+			    st.title("Remedies for " + result)
+			    st.write("Utilize Resistant Varieties - Planting corn varieties that show resistance to the specific blight-causing pathogens can help mitigate the disease's impact.")
+			    st.write("Crop Rotation - Rotate with non-host crops to disrupt the disease cycle and reduce the population of blight-causing pathogens.")
+			    st.write("Fungicides - Application of fungicides, particularly before the onset of favorable conditions for blight, can be an effective management strategy.")
+			    st.write("Sanitation - Clear fields of crop debris post-harvest to reduce overwintering sites for blight pathogens.")
+			    st.write("Adequate Spacing - Avoid overcrowding to ensure good air circulation among plants, reducing humidity and disease spread.")
+			    st.write("Regular Monitoring - Regularly inspect crops for early signs of blight to facilitate prompt action, including removal of infected plants.")
+			
+			    st.write("Consulting local agricultural experts or extension services for region-specific guidance and recommendations can be invaluable in managing and preventing corn blight.")
+
+		
 		if result is 'Corn-Common_Rust':
 			st.title(str("Causes for "+result))
 			st.write(str("Common rust in maize is caused by a fungal pathogen 				      called Puccinia sorghi. This disease occurs when 					      favorable environmental conditions and susceptible 				      host plants come together. Additional reasons 					      maybe Presence of Fungal Spores, Lack of crop 					      rotation")) 
