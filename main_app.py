@@ -4,7 +4,7 @@ import cv2
 from keras.models import load_model
 import tensorflow as tf
 
-model=load+model('plant_disease_model_new_2.h5')
+model=load_model('plant_disease_model_new_2.h5')
 CLASS_NAMES = ['Corn-Blight','Corn-Common_Rust','Corn-Healthy']
 
 st.title("Maize(Corn) Plant Leaf Disease Detection")
