@@ -4,7 +4,7 @@ import cv2
 from keras.models import load_model
 import tensorflow as tf
 import pickle
-import sklearn
+
 model = pickle.load(open('model.sav', 'rb'))
 CLASS_NAMES = ['Corn-Blight','Corn-Common_Rust','Corn-Healthy']
 
