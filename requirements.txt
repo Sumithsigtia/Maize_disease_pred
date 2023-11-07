@@ -1,0 +1,17 @@
+
+keras
+numpy
+streamlit
+tensorflow
+tensorflow_intel
+ torch
+torchvision
+torchaudio
+opencv-python-headless
+textblob
+scipy
+
+pytesseract
+nltk
+pandas
+scikit-learn
