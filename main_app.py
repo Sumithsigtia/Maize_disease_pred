@@ -3,9 +3,8 @@ import streamlit as st
 import cv2
 from keras.models import load_model
 import tensorflow as tf
-import pickle
 
-model = pickle.load(open('plant_disease_model_new_2.h5', 'rb'))
+model=load_model('plant_disease_model (2).h5')
 CLASS_NAMES = ['Corn-Blight','Corn-Common_Rust','Corn-Healthy']
 
 st.title("Maize(Corn) Plant Leaf Disease Detection")
