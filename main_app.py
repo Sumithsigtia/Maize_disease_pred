@@ -5,7 +5,7 @@ from keras.preprocessing import image as keras_image
 from PIL import Image
 
 # Load the trained model
-model_path = "/content/drive/MyDrive/maize_model.h5"  # Replace this with the actual path to your trained model
+model_path = "plant_disease_model_new.h5"  # Replace this with the actual path to your trained model
 model = load_model(model_path)
 
 # Define class labels
