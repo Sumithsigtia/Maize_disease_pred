@@ -33,7 +33,10 @@ file = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
 
 if file is not None:
     img = Image.open(file)
-    st.image(img, caption='Uploaded Image', use_column_width=True)
+
+    # Display a smaller version of the image
+    displayed_image_size = (300, 300)  # Set the desired size
+    st.image(img, caption='Uploaded Image', use_column_width=True, width=displayed_image_size)
 
     # Make prediction when the 'Predict' button is clicked
     if st.button('Predict'):
