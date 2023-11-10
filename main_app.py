@@ -35,7 +35,7 @@ if file is not None:
     img = Image.open(file)
 
     # Display a smaller version of the image
-    displayed_image_size = (300, 300)  # Set the desired size
+    displayed_image_size = (50, 50)  # Set the desired size
     st.image(img, caption='Uploaded Image', use_column_width=True, width=displayed_image_size)
 
     # Make prediction when the 'Predict' button is clicked
